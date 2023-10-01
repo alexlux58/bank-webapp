@@ -5,15 +5,8 @@
 ## Table of Contents
 
 1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Technologies Used](#technologies-used)
-4. [Prerequisites](#prerequisites)
-5. [Installation](#installation)
-6. [Usage](#usage)
-7. [Security](#security)
-8. [Contribution Guidelines](#contribution-guidelines)
-9. [Roadmap](#roadmap)
-10. [License](#license)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
 
 ## Introduction
 
