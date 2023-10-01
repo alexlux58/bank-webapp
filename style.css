@@ -670,3 +670,99 @@ h4 {
   font-size: 1.5rem;
   font-weight: 400;
 }
+
+/* Mobile Responsive Styles */
+
+@media only screen and (max-width: 768px) {
+  /* General Styles */
+  html {
+    font-size: 50%;
+  }
+
+  .section {
+    padding: 8rem 1.5rem;
+  }
+
+  .section__title {
+    margin: 0 auto 4rem auto;
+  }
+
+  .section__header {
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    padding: 1rem 2.5rem;
+  }
+
+  /* Navigation */
+  .nav {
+    padding: 0 2rem;
+  }
+
+  .nav__logo {
+    height: 3rem;
+  }
+
+  .nav__links {
+    display: none; /* Hide for mobile, display as dropdown or use a hamburger menu */
+  }
+
+  /* Header */
+  .header__title {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  /* Features */
+  .features {
+    grid-template-columns: 1fr;
+    margin: 0 2rem;
+  }
+
+  /* Operations */
+  .operations {
+    margin: 6rem auto 0 auto;
+  }
+
+  .operations__content {
+    padding: 2rem 3.5rem 4rem 3.5rem;
+  }
+
+  /* Slider */
+  .slider {
+    height: 30rem;
+  }
+
+  .slide {
+    height: 30rem;
+  }
+
+  /* Testimonials */
+  .testimonial {
+    width: 85%;
+  }
+
+  /* Sign Up */
+  .section--sign-up {
+    padding: 6rem 1.5rem;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 6rem 1.5rem;
+  }
+
+  .footer__nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__item {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+}
